@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F4B3CAC2A14E679003F22FE /* HboMaxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CAB2A14E679003F22FE /* HboMaxApp.swift */; };
+		4F4B3CAE2A14E679003F22FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CAD2A14E679003F22FE /* ContentView.swift */; };
+		4F4B3CB02A14E67A003F22FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B3CAF2A14E67A003F22FE /* Assets.xcassets */; };
+		4F4B3CB32A14E67A003F22FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F4B3CB22A14E67A003F22FE /* Preview Assets.xcassets */; };
+		4F4B3CBA2A15AA18003F22FE /* HboMaxP2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CB92A15AA18003F22FE /* HboMaxP2.swift */; };
+		4F4B3CBC2A15AAE3003F22FE /* CheckYourConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CBB2A15AAE3003F22FE /* CheckYourConnection.swift */; };
+		4F4B3CBE2A15DACF003F22FE /* TheWhiteLotus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CBD2A15DACF003F22FE /* TheWhiteLotus.swift */; };
+		4F4B3CC02A15E615003F22FE /* GetReadyforMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CBF2A15E615003F22FE /* GetReadyforMore.swift */; };
+		4F4B3CC62A17C044003F22FE /* DownloadsRecentlyAdded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CC52A17C044003F22FE /* DownloadsRecentlyAdded.swift */; };
+		4F4B3CC82A17C089003F22FE /* DownloadsClear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CC72A17C089003F22FE /* DownloadsClear.swift */; };
+		4F4B3CCA2A17C0B8003F22FE /* DownloadsDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CC92A17C0B8003F22FE /* DownloadsDone.swift */; };
+		4F4B3CCC2A17C38B003F22FE /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CCB2A17C38B003F22FE /* EditProfile.swift */; };
+		4F4B3CCE2A17C4A5003F22FE /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CCD2A17C4A5003F22FE /* Search.swift */; };
+		4F4B3CD02A17C79A003F22FE /* GameOfThrones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CCF2A17C79A003F22FE /* GameOfThrones.swift */; };
+		4F4B3CD22A17C7F7003F22FE /* RandomSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CD12A17C7F7003F22FE /* RandomSearch.swift */; };
+		4F4B3CD42A17C8E1003F22FE /* Downloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CD32A17C8E1003F22FE /* Downloads.swift */; };
+		4F4B3CD62A17C960003F22FE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B3CD52A17C960003F22FE /* Settings.swift */; };
+		4FD0B2BB2A1818BF001D8302 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B2BA2A1818BF001D8302 /* ImagePicker.swift */; };
+		4FD0B2DF2A18989D001D8302 /* SettingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B2DE2A18989D001D8302 /* SettingsList.swift */; };
+		4FD0B2E32A18D76F001D8302 /* TabViewBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0B2E22A18D76F001D8302 /* TabViewBasic.swift */; };
+		4FD0B2E62A190528001D8302 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4FD0B2E52A190528001D8302 /* YouTubePlayerKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F4B3CA82A14E679003F22FE /* HboMax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HboMax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4B3CAB2A14E679003F22FE /* HboMaxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HboMaxApp.swift; sourceTree = "<group>"; };
+		4F4B3CAD2A14E679003F22FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F4B3CAF2A14E67A003F22FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F4B3CB22A14E67A003F22FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F4B3CB92A15AA18003F22FE /* HboMaxP2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HboMaxP2.swift; sourceTree = "<group>"; };
+		4F4B3CBB2A15AAE3003F22FE /* CheckYourConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckYourConnection.swift; sourceTree = "<group>"; };
+		4F4B3CBD2A15DACF003F22FE /* TheWhiteLotus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWhiteLotus.swift; sourceTree = "<group>"; };
+		4F4B3CBF2A15E615003F22FE /* GetReadyforMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetReadyforMore.swift; sourceTree = "<group>"; };
+		4F4B3CC52A17C044003F22FE /* DownloadsRecentlyAdded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsRecentlyAdded.swift; sourceTree = "<group>"; };
+		4F4B3CC72A17C089003F22FE /* DownloadsClear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsClear.swift; sourceTree = "<group>"; };
+		4F4B3CC92A17C0B8003F22FE /* DownloadsDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsDone.swift; sourceTree = "<group>"; };
+		4F4B3CCB2A17C38B003F22FE /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		4F4B3CCD2A17C4A5003F22FE /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		4F4B3CCF2A17C79A003F22FE /* GameOfThrones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOfThrones.swift; sourceTree = "<group>"; };
+		4F4B3CD12A17C7F7003F22FE /* RandomSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSearch.swift; sourceTree = "<group>"; };
+		4F4B3CD32A17C8E1003F22FE /* Downloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloads.swift; sourceTree = "<group>"; };
+		4F4B3CD52A17C960003F22FE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4FD0B2BA2A1818BF001D8302 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4FD0B2DE2A18989D001D8302 /* SettingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsList.swift; sourceTree = "<group>"; };
+		4FD0B2E22A18D76F001D8302 /* TabViewBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasic.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F4B3CA52A14E679003F22FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD0B2E62A190528001D8302 /* YouTubePlayerKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F4B3C9F2A14E679003F22FE = {
+			isa = PBXGroup;
+			children = (
+				4F4B3CAA2A14E679003F22FE /* HboMax */,
+				4F4B3CA92A14E679003F22FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4B3CA92A14E679003F22FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B3CA82A14E679003F22FE /* HboMax.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F4B3CAA2A14E679003F22FE /* HboMax */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B3CAB2A14E679003F22FE /* HboMaxApp.swift */,
+				4F4B3CAD2A14E679003F22FE /* ContentView.swift */,
+				4F4B3CAF2A14E67A003F22FE /* Assets.xcassets */,
+				4F4B3CB12A14E67A003F22FE /* Preview Content */,
+				4F4B3CB92A15AA18003F22FE /* HboMaxP2.swift */,
+				4F4B3CBF2A15E615003F22FE /* GetReadyforMore.swift */,
+				4F4B3CD52A17C960003F22FE /* Settings.swift */,
+				4F4B3CBB2A15AAE3003F22FE /* CheckYourConnection.swift */,
+				4F4B3CBD2A15DACF003F22FE /* TheWhiteLotus.swift */,
+				4F4B3CCB2A17C38B003F22FE /* EditProfile.swift */,
+				4F4B3CC52A17C044003F22FE /* DownloadsRecentlyAdded.swift */,
+				4F4B3CC72A17C089003F22FE /* DownloadsClear.swift */,
+				4F4B3CC92A17C0B8003F22FE /* DownloadsDone.swift */,
+				4F4B3CD32A17C8E1003F22FE /* Downloads.swift */,
+				4F4B3CCD2A17C4A5003F22FE /* Search.swift */,
+				4F4B3CCF2A17C79A003F22FE /* GameOfThrones.swift */,
+				4F4B3CD12A17C7F7003F22FE /* RandomSearch.swift */,
+				4FD0B2BA2A1818BF001D8302 /* ImagePicker.swift */,
+				4FD0B2DE2A18989D001D8302 /* SettingsList.swift */,
+				4FD0B2E22A18D76F001D8302 /* TabViewBasic.swift */,
+			);
+			path = HboMax;
+			sourceTree = "<group>";
+		};
+		4F4B3CB12A14E67A003F22FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F4B3CB22A14E67A003F22FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F4B3CA72A14E679003F22FE /* HboMax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4B3CB62A14E67A003F22FE /* Build configuration list for PBXNativeTarget "HboMax" */;
+			buildPhases = (
+				4F4B3CA42A14E679003F22FE /* Sources */,
+				4F4B3CA52A14E679003F22FE /* Frameworks */,
+				4F4B3CA62A14E679003F22FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HboMax;
+			packageProductDependencies = (
+				4FD0B2E52A190528001D8302 /* YouTubePlayerKit */,
+			);
+			productName = HboMax;
+			productReference = 4F4B3CA82A14E679003F22FE /* HboMax.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F4B3CA02A14E679003F22FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F4B3CA72A14E679003F22FE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F4B3CA32A14E679003F22FE /* Build configuration list for PBXProject "HboMax" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F4B3C9F2A14E679003F22FE;
+			packageReferences = (
+				4FD0B2E42A190528001D8302 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
+			productRefGroup = 4F4B3CA92A14E679003F22FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F4B3CA72A14E679003F22FE /* HboMax */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F4B3CA62A14E679003F22FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4B3CB32A14E67A003F22FE /* Preview Assets.xcassets in Resources */,
+				4F4B3CB02A14E67A003F22FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F4B3CA42A14E679003F22FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4B3CCE2A17C4A5003F22FE /* Search.swift in Sources */,
+				4F4B3CCA2A17C0B8003F22FE /* DownloadsDone.swift in Sources */,
+				4F4B3CAE2A14E679003F22FE /* ContentView.swift in Sources */,
+				4FD0B2E32A18D76F001D8302 /* TabViewBasic.swift in Sources */,
+				4F4B3CC82A17C089003F22FE /* DownloadsClear.swift in Sources */,
+				4F4B3CCC2A17C38B003F22FE /* EditProfile.swift in Sources */,
+				4F4B3CD42A17C8E1003F22FE /* Downloads.swift in Sources */,
+				4F4B3CBC2A15AAE3003F22FE /* CheckYourConnection.swift in Sources */,
+				4F4B3CBE2A15DACF003F22FE /* TheWhiteLotus.swift in Sources */,
+				4F4B3CC02A15E615003F22FE /* GetReadyforMore.swift in Sources */,
+				4F4B3CD62A17C960003F22FE /* Settings.swift in Sources */,
+				4F4B3CD02A17C79A003F22FE /* GameOfThrones.swift in Sources */,
+				4F4B3CBA2A15AA18003F22FE /* HboMaxP2.swift in Sources */,
+				4F4B3CC62A17C044003F22FE /* DownloadsRecentlyAdded.swift in Sources */,
+				4FD0B2BB2A1818BF001D8302 /* ImagePicker.swift in Sources */,
+				4FD0B2DF2A18989D001D8302 /* SettingsList.swift in Sources */,
+				4F4B3CAC2A14E679003F22FE /* HboMaxApp.swift in Sources */,
+				4F4B3CD22A17C7F7003F22FE /* RandomSearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F4B3CB42A14E67A003F22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F4B3CB52A14E67A003F22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F4B3CB72A14E67A003F22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HboMax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorgainzation.HboMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F4B3CB82A14E67A003F22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HboMax/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myorgainzation.HboMax;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F4B3CA32A14E679003F22FE /* Build configuration list for PBXProject "HboMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4B3CB42A14E67A003F22FE /* Debug */,
+				4F4B3CB52A14E67A003F22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4B3CB62A14E67A003F22FE /* Build configuration list for PBXNativeTarget "HboMax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F4B3CB72A14E67A003F22FE /* Debug */,
+				4F4B3CB82A14E67A003F22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FD0B2E42A190528001D8302 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FD0B2E52A190528001D8302 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FD0B2E42A190528001D8302 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F4B3CA02A14E679003F22FE /* Project object */;
+}
